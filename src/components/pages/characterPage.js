@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import {Col, Row, Container} from 'reactstrap';
-import ItemList from '../../itemList';
-import ItemDetails, {Field} from '../../itemDetails';
-import ErrorMessage from '../../errorMessage';
-import gotService from '../../../services/gotService'
-import RowBlock from '../../RowBlock'
+import ItemList from '../itemList';
+import ItemDetails, {Field} from '../itemDetails';
+import ErrorMessage from '../errorMessage';
+import gotService from '../../services/gotService'
+import RowBlock from '../RowBlock'
 
 
 export default class CharacterPage extends Component {
